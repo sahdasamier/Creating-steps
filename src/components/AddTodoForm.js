@@ -19,7 +19,7 @@ const dispatch = useDispatch();
 
   return (
 	<form onSubmit={onSubmit} className='form-inline mt-3 mb-3'>
-		<label className='sr-only'>Name</label>
+		<label className='sr-only'>Your step</label>
 		<input
 			type='text'
 			className='form-control mb-2 mr-sm-2'

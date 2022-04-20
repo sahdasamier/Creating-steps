@@ -42,7 +42,7 @@ export const toggleCompleteAsync = createAsyncThunk(
 		
 		});
     if (response.ok) {
-			return { id: payload.id,completed: payload.completed };
+			return { id: payload.id,completed: payload.completed }; //here we should to add completed to fetch update without refreshing the page 
 		}
 	}
 );
