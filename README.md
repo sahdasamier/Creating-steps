@@ -4,6 +4,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+### `npm run server `
+to run the server of that app in the api folder make 'git bash here' then write that code found above to run the server which that ["http://localhost:7000"] its URL 
+
 ### `npm start`
 
 Runs the app in the development mode.<br />
